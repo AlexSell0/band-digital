@@ -1,0 +1,57 @@
+/**
+* Theme Name:  Band Digital
+* Theme URI:   Тема для сайта услуг интернет маркетинга
+* Author:      Alex
+* Author URI:  URL автора. Пример: http://mysite.org/
+* Description: Короткое описание темы.
+* License:     Лицензия. Пример: GNU General Public License v2 or later
+* License URI: URL на лицензию. Пример: http://www.gnu.org/licenses/gpl-2.0.html
+* Tags:        Метки темы, по которым тему можно будет найти в каталоге WordPress. Например: black, brown, orange, tan, white, yellow
+* Text Domain: band_digital
+* Version:     Версия темы. Пример: 1.0
+*/
+
+.comment-reply-link{
+    text-decoration: none;
+    -webkit-transition: all 0.4s;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+}
+
+.reply{
+    color: black;
+}
+
+.comment-form-cookies-consent{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.comment-form-cookies-consent input[type="checkbox"]{
+    width: 20px;
+    height: 20px;
+    display: block;
+}
+
+.comment-form-cookies-consent label{
+    margin-left: 20px;
+}
+
+#searchform{
+    position: relative;
+}
+
+#searchform button{
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: none;
+    border: none;
+    width: 80px;
+}
+
+#searchform button:focus {
+    outline: 0;
+}
